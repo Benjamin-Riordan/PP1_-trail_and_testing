@@ -63,17 +63,37 @@
 
     }
 
-    #lessthen550 {
-        display: none;
-    }
+   #pagenav ul {
+       clear: left;
+       float: left;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       line-height: 25px;
+       margin-right: 30px;
+       padding-left: 20px;
+   }
 
-    #pagenav ul {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        text-overflow: ellipsis;
+
+   }
+
+   @media screen and (max-width:400px) {
+       #h1-link {
+           font-size: 25px;
+           text-transform: capitalize;
+           padding-left: 5px;
+           letter-spacing: 2px;
+           line-height: 75px;
+
+       }
+
+         #pagenav ul {
+             clear: left;
+             float: left;
+         margin-top: 20px;
+         margin-bottom: 20px;
+         line-height: 25px;
+         margin-right: 30px;
+         padding-left: 20px;
     }
 
 
